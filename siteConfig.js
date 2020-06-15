@@ -3,11 +3,11 @@ module.exports = {
     siteUrl: `https://demo.jamify.org`,
 
     // Enable infinite scroll (default: true)
-    infiniteScroll: true,
+    infiniteScroll: false,
 
     // Initial number fetched, scrolling lazy loads posts one by one
     // If infinite scroll is disabled: maximum number of post shown per page
-    postsPerPage: 3,
+    postsPerPage: 30,
 
     // This allows an alternative site title for meta data for pages.
     siteTitleMeta: `Gatsby Starter Ghost CMS`,
@@ -26,11 +26,11 @@ module.exports = {
     themeColor: `#15171A`,
 
     // Include Gatsby images for lazy loading and image optimizations
-    gatsbyImages: true,
+    gatsbyImages: false,
 
     // Show more logs for debugging purposes (default: false)
-    verbose: false,
+    verbose: true,
 
     // Severity for verbose mode: (`info`, `warn`, `error`)
-    severity: `info`,
+    severity: `warn`,
 }
